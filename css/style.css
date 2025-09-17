@@ -36,8 +36,13 @@
 .carousel-indicators img{
     height: 685px;
 }
+/*
 .carousel.carousel-dark.slide{
     margin-top: 76px;
+}*/
+.carousel.carousel-dark.slide,.carousel-item,.carousel-item img{
+    /* margin-top: 76px; */
+    height: 100vh;
 }
 /* /////////////////////////////////////////////////////////////////////////////////////////////////// */
 .eco{
@@ -441,3 +446,4 @@ a{
     height: 60px;
     position: relative;
 }
+
